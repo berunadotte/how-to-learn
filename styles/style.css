@@ -10,6 +10,8 @@
 
 }
 
+/* 1 */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -89,17 +91,16 @@ color: #000000; */
   background-color: #2f80ed;
 }
 
-.description {
-}
+/* 2 */
 
 .two-columns {
   width: 80%;
   min-width: 784px;
   display: flex;
-  padding: 100px 0 100px 0;
   justify-content: center;
-  margin: 0 auto;
   justify-content: space-between;
+  padding: 100px 0 100px 0;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -129,12 +130,16 @@ color: #000000; */
   font-weight: 400;
 }
 
-.two-columns__paragraph_bold {
+.two-columns__paragraph:nth-child(1n+2) {
+  margin-top:   30px;
+}
+
+.two-columns__span-accent {
   font-weight: 600;
 }
 
 
-
+/* 3 */
 
 
 
