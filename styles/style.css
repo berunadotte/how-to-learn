@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
+
 }
 
 .header {
@@ -51,8 +52,8 @@ color: #000000; */
   display: flex;
   width: 765px;
   height: 608px;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
   z-index: 1;
 }
 
@@ -81,12 +82,62 @@ color: #000000; */
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 64px;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
 }
+
+.description {
+}
+
+.two-columns {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  padding: 100px 0 100px 0;
+  justify-content: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  flex-direction: column;
+}
+
+.two-columns__title {
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  flex-direction: column;
+}
+
+.two-columns__paragraph {
+  justify-content: space-between;
+  flex-direction: row;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.two-columns__paragraph_bold {
+  font-weight: 600;
+}
+
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
