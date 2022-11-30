@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f2f2f2;
 }
@@ -15,13 +11,10 @@ h2, h3, h4, p {
   margin-bottom: 0;
 }
 
-/* 1 */
-
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   display: flex;
   position: relative;
 }
@@ -69,12 +62,11 @@ h2, h3, h4, p {
   z-index: 1;
 }
 
-.header__subtitle_link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   right: 0;
@@ -83,8 +75,6 @@ h2, h3, h4, p {
   width: 568px;
   background-color: #2f80ed;
 }
-
-/* 2 */
 
 .description {
   background-color: #fff;
@@ -130,8 +120,6 @@ h2, h3, h4, p {
 .two-columns__span-accent {
   font-weight: 600;
 }
-
-/* 3 */
 
 .digits {
   display: flex;
@@ -192,14 +180,12 @@ h2, h3, h4, p {
   color: #000;
 }
 
-/* 4 */
-
 .feynman {
   background-image: url('../images/feynman.png');
   background-repeat: no-repeat;
   background-position: bottom 0 left 0;
   width: 100%;
-  height: 890px;
+  min-height: 890px;
   position: relative;
 }
 
@@ -234,8 +220,6 @@ h2, h3, h4, p {
   text-decoration: none;
 }
 
-/* 5 */
-/* и элемента с модификатором вида ключ-значение */
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
@@ -248,12 +232,13 @@ h2, h3, h4, p {
 }
 
 .kaufman__triangle {
-  display: block;
   position: absolute;
   top: 0;
   right: -210px;
   width: 877px;
   height: 877px;
+  z-index: 0;
+  background-image: url('../images/kaufman-triangle.svg');
 }
 
 .section-title_theme_dark {
@@ -280,28 +265,26 @@ h2, h3, h4, p {
   color: #fff;
 }
 
-/* 6 */
-
 .footer {
   padding: 60px 0 40px 0;
   background-color: #1f1f1f;
   min-height: 350px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  flex-basis: 711px;
   width: 90%;
   margin: 0 auto;
   flex-direction: row;
-  min-height: 350px;
 }
 
 .footer__column_content_copyright {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  flex-basis: 711px;
 }
 
 .logo_place_footer {
