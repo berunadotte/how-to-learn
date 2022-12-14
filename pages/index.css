@@ -8,6 +8,7 @@
 @import url(../blocks/page/header/__link/header__link.css);
 @import url(../blocks/page/header/logo/_place/logo_place_header.css);
 @import url(../blocks/page/header/logo/_place/logo_place_footer.css);
+@import url(../blocks/page/rotation/rotation.css);
 
 @import url(../blocks/page/content/description/description.css);
 @import url(../blocks/page/content/description/two-columns/two-columns.css);

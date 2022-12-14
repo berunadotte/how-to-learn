@@ -1,0 +1,9 @@
+@keyframes square-rotation {
+    from {
+        transform: rotate(-360deg);
+    }
+}
+
+.rotation {
+    animation: square-rotation 20s linear infinite;
+}

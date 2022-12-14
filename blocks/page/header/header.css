@@ -4,4 +4,5 @@
   max-height: 756px;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
