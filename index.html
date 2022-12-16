@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="pages/index.css">
 
   </head>
@@ -12,6 +11,7 @@
     <div class="root">
 
       <header class="header">
+
         <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип">
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
@@ -22,6 +22,7 @@
       </header>
 
       <main class="content">
+        
         <section class="description" aria-label="две колонки">
           <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -66,14 +67,12 @@
         </section>
 
         <section class="video">
-
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех кто любит прокрастинировать</p>
           <div class="video__iframes">
             <iframe class="video__iframe" src="http://www.youtube.com/embed/arj7oStGLkU" frameborder="0"></iframe>
             <iframe class="video__iframe" src="http://www.youtube.com/embed/5MgBikgcWnY" frameborder="0"></iframe>
           </div>
-
         </section>
 
         <section class="oakley">
@@ -141,19 +140,15 @@
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
               <img src="./images/khan-book.jpg" alt="книга Весь мир - школа" class="khan__book-pic">
-              <a href="#" class="khan__buy-link">Купить книгу</a>
+              <a href="#" class="khan__buy-link">Купить книгу &#8594;</a>
             </div>
-
           </div>
         </section>
-
-
 
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
           <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-          <div class="kaufman__triangle"></div>
-
+          <div class="kaufman__triangle rotation"></div>
           <ul class="table table_theme_dark">
             <li class="table__cell table__cell_theme_dark">
               <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -198,19 +193,25 @@
           </ul>
         </section>
 
-        <section class="resources"></section>
+        <section class="resources">
+          <h2 class="section-title">Полезные ресурсы</h2>
+          <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+          <div class="resources__logo-zone">
+            <a href="#" class="resources__link"><img src="./images/logo/resources-arzamas.svg" alt="логотип Arzamas" class="resources__logo"></a>
+            <a href="#" class="resources__link"><img src="./images/logo/resources-n1.svg" alt="логотип N+1" class="resources__logo"></a>
+            <a href="#" class="resources__link"><img src="./images/logo/resources-strelka.svg" alt="логотип STRELKA" class="resources__logo"></a>
+            <a href="#" class="resources__link"><img src="./images/logo/resources-polka.svg" alt="логотип ПОЛКА" class="resources__logo"></a>
+          </div>
+        </section>
 
       </main>
 
       <footer class="footer">
-
         <div class="footer__columns">
-
           <div class="footer__column footer__column_content_copyright">
             <img class=" logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип">
             <p class="footer__author">&copy; Виктор Абанькин</p>
           </div>
-
           <div class="footer__column footer__column_content_info">
             <h3 class="footer__column-heading">О практикуме</h3>
             <nav class="footer__column-links">
@@ -219,7 +220,6 @@
               <a href="#" class="footer__column-link">Наставники</a>
             </nav>
           </div>
-
           <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
             <div class="footer__column-links">
@@ -228,9 +228,7 @@
               <a href="#" class="footer__column-link"><img src="./images/tiktok-icon.svg" alt="Лого" class="footer__social-icon"> TikTok</a>
             </div>
           </div>
-
         </div>
-
       </footer>
 
     </div>

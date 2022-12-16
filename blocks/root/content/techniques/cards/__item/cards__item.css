@@ -1,7 +1,7 @@
 .cards__item {
-    max-width: 240px;
+  max-width: 240px;
 }
 
 .cards__item:nth-child(3n-1) {
-    margin: 0 100px;
+  margin: 0 100px;
 }
